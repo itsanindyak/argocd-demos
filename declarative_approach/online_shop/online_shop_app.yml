@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: online-shop
+  name: online-shop-child
   namespace: argocd
 spec:
   project: tws-project
